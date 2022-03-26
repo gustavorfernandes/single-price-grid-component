@@ -1,0 +1,20 @@
+:root {
+    --white: #FFFFFF;
+    --cyan: hsl(179, 62%, 43%);
+    --cyan-alternative: hsla(179, 62%, 43%, 0.73);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+    --karla: 'Karla', sans-serif;
+}
+
+body{
+    font-family: var(--karla);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-gray);
+}

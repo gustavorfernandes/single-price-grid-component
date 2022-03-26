@@ -1,0 +1,98 @@
+.content {
+    width: 85%;
+    height: 85%;
+}
+
+.content__guarantee {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    gap: 1.5rem;
+}
+
+.content__guarantee-title {
+    color: var(--cyan);
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.content__guarantee-subtitle {
+    color: var(--bright-yellow);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+.content__guarantee-text {
+    color: var(--grayish-blue);
+    line-height: 2;
+    font-size: .85rem;
+}
+
+.content__price {
+    background-color: var(--cyan);
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+    color: var(--white);
+    padding: 1.5rem;
+    gap: 1rem;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.content__price-title {
+    grid-column: span 3;
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+
+.content__price-price {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.content__price-month {
+    color: var(--light-gray);
+    font-size: .85rem;
+    grid-column: span 2;
+}
+
+.content__price-info {
+    grid-column: span 3;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.content__price-button {
+    grid-column: span 3;
+    background-color: var(--bright-yellow);
+    border-radius: 5px;
+    height: 3rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.content__about {
+    background-color: var(--cyan-alternative);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    gap: 1rem;    
+}
+
+.content__about-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--white);    
+}
+
+.content__about-list {
+    font-weight: 400;
+    font-size: .85rem;
+    line-height: 1.5;
+    color: var(--light-gray);
+}
